@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.2.4/dist/kute.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section>
+        <h1 id="home-h">Hi, My name is Varshaa</h1>
+        <h2 class="role">I am a Developer, Analyst and Creative Thinker</h2>
+
+
+        <svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+            <g transform="translate(453.0803672720287 323.8954156677743)">
+                <path id="blob1"
+                    d="M141.9 -137.8C191.9 -91.9 246 -46 241.5 -4.5C237 37 174 74 124 101.2C74 128.3 37 145.7 -14.8 160.5C-66.7 175.4 -133.4 187.7 -181.6 160.6C-229.7 133.4 -259.4 66.7 -243.7 15.7C-228 -35.4 -167 -70.7 -118.9 -116.5C-70.7 -162.4 -35.4 -218.7 5.3 -224C46 -229.3 91.9 -183.6 141.9 -137.8"
+                    fill="#4f00ba"></path>
+            </g>
+            <g transform="translate(459.6607211575619 336.95767956332656)" style="visibility: hidden;"><path id="blob2" d="M103.2 -117C135.7 -70.7 165.4 -35.4 179 13.7C192.7 62.7 190.4 125.4 157.9 152.2C125.4 179.1 62.7 170 5.4 164.6C-51.9 159.2 -103.7 157.4 -138.5 130.5C-173.4 103.7 -191.2 51.9 -200.6 -9.4C-210 -70.7 -211.1 -141.4 -176.3 -187.8C-141.4 -234.1 -70.7 -256 -17.7 -238.4C35.4 -220.7 70.7 -163.4 103.2 -117" fill="#4f00ba"></path></g>
+        </svg>
+    </section>
+
+    <div class="button-container">
+        <a href="https://github.com/varshaasj" class="floating-button">resume</a>
+        <a href="https://github.com/varshaasj" class="floating-button">github</a>
+      </div>
+
+    <div class="spacer layer1 flip"></div>
+
+    <script>
+        const tween = KUTE.fromTo(
+          '#blob1',
+          { path: '#blob1' },
+          { path: '#blob2' },
+          { repeat: 999, duration: 3000, yoyo: true }
+        ).start();
+      </script>
+
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.2.4/dist/kute.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+	<title>My Projects</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="projects.html">Projects</a></li>
+			</ul>
+		</nav>
+    </header>
+
+
+    
+    <section id="projects">
+        <div class="container">
+          <h1>Technical Projects</h1>
+          <p>Here are some of the technical projects I've worked on:</p>
+        
+          <div class="gallery">
+            <div class="project" onclick="openPopup()">
+                <img src="hospital_mng.jpeg" alt="Project Image">
+                <h3>Data Management System</h3>
+                <p>Built a system that organizes and calculates nutritient levels for patients. </p>
+              </div>
+              
+              <div id="popup">
+                <div id="popup-content">
+                   <p>
+                    Project Repository:
+                    <a href="https://github.com/timberwang0810/BabyMilkApp">
+                        Github
+                    </a>
+                </p>
+                  <p>Languages: Ruby on Rails, SQL, HTML</p><br>
+                  <p>
+                    The Ruby on Rails application that we built over the course of three months is a full-stack web application that serves as a scanner application to match patients to the nutrients they must consume. The application was designed to help patients track their nutritional intake and provide them with the information they need to maintain a healthy lifestyle. 
+
+                    The application is built using the Ruby programming language and the Rails framework, which allowed us to quickly develop and test the application. We also used several other technologies such as JavaScript, HTML, CSS, and Bootstrap to enhance the functionality and design of the application. 
+                                     
+                     
+                    In addition to the scanner and nutrient matching features, the application also includes a number of other features such as a dashboard that displays the user's nutritional progress over time, the ability to set and track goals, and a recipe database that provides users with healthy recipes based on their dietary needs.
+                    
+                 </p>
+                  
+                  <button onclick="closePopup()">Close</button>
+                </div>
+              </div>
+            <div class="project" onclick="openPopup()">
+              <img src="market_rsh.png" alt="Project 2">
+              <h3>Market Research Website</h3>
+              <p>Build a information marketing site for a market research boutique client.</p>
+            </div>
+            <div id="popup">
+                <div id="popup-content">
+                   <p>
+                    Project Repository:
+                    <a href="https://orangevista.com">
+                        Github
+                    </a>
+                </p>
+                  <p>Technology: Wordpress, HTML</p><br>
+                  <p>
+                    The website for the market research firm was a collaborative effort between myself and the client. We worked closely together to ensure that the final product met their needs and reflected their brand. 
+                   
+                    From there, I began building the website using WordPress. I chose this platform because it allowed me to easily create a custom design that would meet the client's needs. I started with a basic theme and then customized it using HTML, CSS, and JavaScript. 
+                    
+                    
+                    The final website included all of the features the client wanted, including a clean and modern design, easy navigation, a blog for sharing insights and news, and a portfolio that showcased their past work. The site was also fully responsive, meaning it looked great on all devices, from desktops to smartphones.
+                    
+                    Overall, the project took about three months to complete.   
+                 </p>
+                  
+                  <button onclick="closePopup()">Close</button>
+                </div>
+              </div>
+            <div class="project" onclick="openPopup()">
+              <img src="travlr_pic.jpg" alt="Project 3">
+              <h3>Travel Mobile Application</h3>
+              <p>This application plans itenaries and trip details in a collaborative manner. Organizes trip information and sends notifications.</p>
+            </div>
+
+            <div id="popup">
+                <div id="popup-content">
+                   <p>
+                    Project Repository:
+                    <a href="https://github.com/snassar7/appv1">
+                        Github
+                    </a>
+                </p>
+                  <p>Languages: Swift</p><br>
+                  <p>
+                    The travel itinerary mobile app is a swift-based application designed to help travelers organize their trip information. It allows users to input their travel plans, including flights, hotel reservations, and activities. The app keeps track of all travel information and provides users with a clear itinerary of their trip. It is a user-friendly and convenient way to organize and manage all the details of a trip in one place.
+                    The application was built over a semester(4 months)
+                 </p>
+                  
+                  <button onclick="closePopup()">Close</button>
+                </div>
+              </div>
+            <div class="project" onclick="openPopup()">
+              <img src="mu.jpeg" alt="Project 4">
+              <h3>Music Harmony Generator</h3>
+              <p>This application generate harmonic vocal layers over a voice/instrument recorded input</p>
+            </div>
+            <div id="popup">
+                <div id="popup-content">
+                   <p>
+                    Project Repository:
+                    <a href="https://github.com/varshaasj/112-music-harmonizer">
+                        Github
+                    </a>
+                </p>
+                  <p>Languages: Python</p><br>
+                  <p>
+                    The musical harmony generation app is a unique and innovative application that allows users to input a melody and generate harmonies for it automatically. The app utilizes advanced algorithms to analyze the input melody and generate a set of harmonies that are musically coherent and pleasing to the ear. In addition to generating harmonies, the app also displays the input notes in a sheet music format, allowing users to read and play the melody themselves. With this app, users can easily create complex and beautiful harmonies for their musical compositions, without the need for extensive musical training.
+                 </p>
+                  
+                  <button onclick="closePopup()">Close</button>
+                </div>
+              </div>
+          </div>
+          
+        </div>
+      </section>
+
+      
+    
+      
+
+	<footer>
+		<p>&copy; 2023 My Portfolio. All rights reserved.</p>
+	</footer>
+</body>
+</html>
